@@ -74,3 +74,80 @@ body {
   top: 15%;
   z-index: -1;
 }
+.header2-Review {
+  font-size: 3em;
+  color: hsl(229, 31%, 21%);
+}
+.section3-Review {
+  font-size: 10px;
+  text-align: center;
+}
+.Paragrapgh-Review {
+  font-size: 1.9em;
+  color: hsl(229, 8%, 60%);
+  width: 35%;
+}
+.Father-Paragrapght-Review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Father-Review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  gap: 30px;
+  margin-top: 5%;
+}
+.Chrome-Child-Review {
+  background-color: white;
+  font-size: 2.9em;
+  box-shadow: 3px 3px 10px -1px hsl(229, 8%, 60%);
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+}
+.Firefox-Child-Review {
+  background-color: white;
+  font-size: 2.9em;
+  box-shadow: 3px 3px 10px -1px hsl(229, 8%, 60%);
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+.Opera-Child-Review {
+  background-color: white;
+  font-size: 2.9em;
+  box-shadow: 3px 3px 10px -1px hsl(229, 8%, 60%);
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+  margin-bottom: -80px;
+}
+.Paragrapgh-Review-Child {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.9em;
+}
+.button-review {
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 500;
+  height: 70%;
+  border-color: white;
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px -12px blue;
+}
+.button-review:hover {
+  background-color: white;
+  border-color: hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+}
+.father-button-review{
+  height: 70px;
+}
