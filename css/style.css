@@ -10,7 +10,7 @@ body {
   gap: 1px;
 }
 .max-width{
-  max-width: 90%;
+  width: 75rem;
   margin-inline: auto;
 }
 .header1-Hero {
