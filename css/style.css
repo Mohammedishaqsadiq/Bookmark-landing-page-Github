@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1px;
+  margin-inline: auto;
 }
 .header1-Hero {
   font-size: 5.5em;
