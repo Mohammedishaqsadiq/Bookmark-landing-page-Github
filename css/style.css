@@ -63,14 +63,18 @@ body {
   color: hsl(229, 31%, 21%);
   width: 150px;
 }
+.image-Hero{
+  position: relative;
+  height: 80%;
+}
 .div2-Hero {
-  width: 800px;
+  width: 80%;
   background-color: hsl(231, 69%, 60%);
-  height: 400px;
+  height: 50%;
   position: absolute;
   left: 70.9%;
-  border-top-left-radius: 90px;
-  border-bottom-left-radius: 90px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
   top: 15%;
   z-index: -1;
 }
