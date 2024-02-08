@@ -8,21 +8,21 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1px;
+}
+.max-width{
+  max-width: 90%;
   margin-inline: auto;
 }
 .header1-Hero {
   font-size: 5.5em;
-  width: 90%;
   color: hsl(229, 31%, 21%);
 }
 .div-Hero {
   font-size: 10px;
-  padding-left: 80px;
 }
 .paragrapgh-Hero {
   font-size: 1.9em;
   color: hsl(229, 8%, 60%);
-  width: 90%;
   font-weight: 400;
   line-height: 1.5;
 }
