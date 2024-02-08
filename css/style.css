@@ -7,10 +7,11 @@ body {
 .section-Hero {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 1px;
+  justify-content: space-between;
 }
 .max-width {
-  width: 80%;
+  width: 70%;
   margin-inline: auto;
 }
 .header1-Hero {
@@ -18,10 +19,11 @@ body {
   color: hsl(229, 31%, 21%);
 }
 .div-Hero {
-  font-size: 10px;
+  font-size: 8px;
+  width: 100rem;
 }
 .paragrapgh-Hero {
-  font-size: 1.9em;
+  font-size: 1.8em;
   color: hsl(229, 8%, 60%);
   font-weight: 400;
   line-height: 1.5;
@@ -65,13 +67,12 @@ body {
   width: 150px;
 }
 .image-Hero {
-  height: 400px;
-  margin-right: -30px;
+  height: 350px;
 }
 .div2-Hero {
-  width: 900px;
+  width: 1000px;
   background-color: hsl(231, 69%, 60%);
-  height: 300px;
+  height: 250px;
   position: absolute;
   left: 70%;
   border-top-left-radius: 100px;
