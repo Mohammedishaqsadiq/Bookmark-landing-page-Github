@@ -7,7 +7,7 @@ body {
 .section-Hero {
   display: flex;
   flex-direction: row;
-  gap: 1px;
+  gap: 50px;
 }
 .max-width {
   width: 80%;
