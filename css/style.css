@@ -68,9 +68,9 @@ body {
   height: 80%;
 }
 .div2-Hero {
-  width: 90vw;
+  width: 900px;
   background-color: hsl(231, 69%, 60%);
-  height: 45vh;
+  height: 300px;
   position: absolute;
   left: 70.9%;
   border-top-left-radius: 100px;
