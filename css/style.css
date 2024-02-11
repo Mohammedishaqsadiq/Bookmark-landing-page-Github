@@ -171,16 +171,16 @@ html {
   align-items: center;
   gap: 10px;
 }
-.child-section5{
+.child-section5 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .header2-Cra {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   color: white;
-  width: 65%;
+  width: 45vw;
   text-align: center;
 }
 .Paragrapgh-Cra {
@@ -192,16 +192,16 @@ html {
   height: 7vh;
   width: 20vw;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-left: 20px;
-  border:none;
+  border: none;
 }
 .button-Cra {
   height: 7.5vh;
   border-radius: 5px;
   background-color: hsl(0, 94%, 66%);
   color: white;
-  width: 6vw;
+  width: 7vw;
   font-size: 0.7rem;
   border: none;
 }
