@@ -162,3 +162,50 @@ html {
 .father-button-review {
   height: 70px;
 }
+.section5-Cra {
+  background-color: hsl(231, 69%, 60%);
+  padding: 50px 0 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 65.5%;
+  gap: 10px;
+}
+.header2-Cra {
+  font-size: 4em;
+  color: white;
+  width: 35%;
+  text-align: center;
+}
+.Paragrapgh-Cra {
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+  color: white;
+}
+.Email-Cra {
+  height: 6vh;
+  width: 20vw;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding-left: 20px;
+  border-color:none;
+}
+.button-Cra {
+  height: 7vh;
+  border-radius: 5px;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  width: 6vw;
+}
+.button-Cra:hover {
+  background-color: white;
+  border: 3px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+  font-weight: 500;
+}
+.Father-input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
