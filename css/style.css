@@ -162,3 +162,57 @@ html {
 .father-button-review {
   height: 70px;
 }
+.section5-Cra {
+  background-color: hsl(231, 69%, 60%);
+  padding: 50px 0 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.child-section5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header2-Cra {
+  font-size: 2.3rem;
+  color: white;
+  width: 45vw;
+  text-align: center;
+}
+.Paragrapgh-Cra {
+  font-size: 1.1rem;
+  letter-spacing: 0.3em;
+  color: white;
+}
+.Email-Cra {
+  height: 7vh;
+  width: 20vw;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding-left: 20px;
+  border: none;
+}
+.button-Cra {
+  height: 7.5vh;
+  border-radius: 5px;
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  width: 7vw;
+  font-size: 0.7rem;
+  border: none;
+}
+.button-Cra:hover {
+  background-color: white;
+  border: 3px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+  font-weight: 500;
+}
+.father-button {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
