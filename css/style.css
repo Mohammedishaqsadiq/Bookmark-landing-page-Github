@@ -216,3 +216,37 @@ html {
   flex-direction: row;
   gap: 1vw;
 }
+.section6-Footer {
+  background-color: hsl(229, 31%, 21%);
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.child-section6-Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+}
+.section6-child {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.section6-child > p {
+  color: white;
+  font-size: 0.7rem;
+}
+.section6-child > P:hover{
+  color: hsl(0, 94%, 66%);
+}
+.svg1-footer:hover{
+  fill: hsl(0, 94%, 66%);
+}
+
