@@ -7,6 +7,44 @@ body {
 html {
   font-size: 3vh;
 }
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+li:hover {
+  color: hsl(0, 94%, 66%);
+}
+.fear {
+  display: flex;
+  gap: 1.8rem;
+}
+.contain {
+  display: flex;
+  gap: 22rem;
+  padding: 0.8rem 0 1.2rem 0;
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.5rem;
+  color: hsl(229, 8%, 60%);
+  align-items: center;
+}
+.but {
+  background-color: hsl(0, 94%, 66%);
+  border-style: none;
+  width: 6vw;
+  height: 4.5vh;
+  border-radius: 8%;
+  color: white;
+
+}
+.but:hover {
+  background-color: white;
+  border: 2px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+}
 .section-Hero {
   display: flex;
   flex-direction: row;
