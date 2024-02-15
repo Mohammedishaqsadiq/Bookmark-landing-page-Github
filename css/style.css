@@ -22,7 +22,7 @@ li:hover {
 .contain {
   display: flex;
   gap: 22rem;
-  padding: 0.5rem 0 1.2rem 0;
+  padding: 1rem 0 2rem 0;
 }
 .list {
   display: flex;
@@ -34,9 +34,9 @@ li:hover {
 }
 .but {
   background-color: hsl(0, 94%, 66%);
-  border-style: none;
   width: 6vw;
   height: 4vh;
+  border-style: none;
   border-radius: 8%;
   color: white;
   font-size: 0.4rem;
