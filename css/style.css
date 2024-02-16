@@ -118,12 +118,12 @@ li:hover {
 .div2-Hero {
   width: 70vw;
   background-color: hsl(231, 69%, 60%);
-  height: 40vh;
+  height: 45vh;
   position: absolute;
   left: 70%;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-  top: 15%;
+  top: 20%;
   z-index: -1;
 }
 .header2-Review {
