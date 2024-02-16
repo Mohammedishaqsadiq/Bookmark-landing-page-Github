@@ -7,6 +7,47 @@ body {
 html {
   font-size: 3vh;
 }
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+li:hover {
+  color: hsl(0, 94%, 66%);
+}
+.fear {
+  display: flex;
+  gap: 1.8rem;
+}
+.contain {
+  display: flex;
+  gap: 22rem;
+  padding: 1rem 0 2rem 0;
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.5rem;
+  color: hsl(229, 8%, 60%);
+  align-items: center;
+  font-weight: 500;
+}
+.but {
+  background-color: hsl(0, 94%, 66%);
+  width: 6vw;
+  height: 4vh;
+  border-style: none;
+  border-radius: 8%;
+  color: white;
+  font-size: 0.4rem;
+  font-weight: 500;
+
+}
+.but:hover {
+  background-color: white;
+  border: 2px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+}
 .section-Hero {
   display: flex;
   flex-direction: row;
@@ -77,12 +118,13 @@ html {
 .div2-Hero {
   width: 70vw;
   background-color: hsl(231, 69%, 60%);
-  height: 40vh;
+  height: 45vh;
+  
   position: absolute;
   left: 70%;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-  top: 15%;
+  top: 20%;
   z-index: -1;
 }
 .header2-Review {
