@@ -119,6 +119,7 @@ li:hover {
   width: 70vw;
   background-color: hsl(231, 69%, 60%);
   height: 45vh;
+  
   position: absolute;
   left: 70%;
   border-top-left-radius: 100px;
