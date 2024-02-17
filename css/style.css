@@ -31,6 +31,7 @@ li:hover {
   color: hsl(229, 8%, 60%);
   align-items: center;
   font-weight: 500;
+  cursor: pointer;
 }
 .but {
   background-color: hsl(0, 94%, 66%);
@@ -119,12 +120,85 @@ li:hover {
   width: 70vw;
   background-color: hsl(231, 69%, 60%);
   height: 45vh;
-  
   position: absolute;
   left: 70%;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
   top: 20%;
+  z-index: -1;
+}
+.about {
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  margin-block: 3vh;
+}
+.is {
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.I {
+  color: hsl(229, 31%, 21%);
+  border-bottom: 2px solid hsl(0, 94%, 66%);
+  padding-inline: 16px;
+}
+.is:hover {
+  color: hsl(0, 94%, 66%);
+}
+.free {
+  margin-block: 10%;
+}
+.butto {
+  background-color: hsl(231, 69%, 60%);
+  width: 28%;
+  border-style: none;
+  height: 16%;
+  border-radius: 6%;
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 500;
+  
+}
+.simple {
+  list-style: none;
+  display: flex;
+  gap: 10rem;
+  font-size: 1rem;
+  color: hsl(229, 8%, 60%);
+  border-bottom: 0.5px solid hsl(229, 8%, 60%);
+  padding: 0;
+  cursor: pointer;
+  
+}
+.book {
+  margin-top: 1.5rem;
+}
+.boo {
+  font-size: 1.5rem;
+  color: hsl(229, 31%, 21%);;
+}
+.fr {
+  text-align: center;
+}
+.para {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.7rem;
+  margin: -1rem 0 1rem 0;
+  line-height: 1rem;
+}
+.pic {
+  width: 24vw;
+  margin-top: 2.5%;
+}
+.div2 {
+  width: 70vw;
+  background-color: hsl(231, 69%, 60%);
+  height: 30vh;
+  position: absolute;
+  left: -28%;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  top: 122vh;
   z-index: -1;
 }
 .header2-Review {
