@@ -60,6 +60,9 @@ li:hover {
   padding: 10px 0;
 
 }
+.collin label:hover {
+  color: hsl(0, 94%, 66%);
+}
 .sr {
   margin-top: 10%;
 }
@@ -89,6 +92,9 @@ li:hover {
   cursor: pointer;
   padding: 10px 0;
 
+}
+.fre label:hover {
+  color: hsl(0, 94%, 66%);
 }
 .fre input:checked + label:after {
   transform: rotate(180deg);
