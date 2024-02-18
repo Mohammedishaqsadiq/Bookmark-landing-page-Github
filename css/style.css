@@ -49,6 +49,117 @@ li:hover {
   border: 2px solid hsl(0, 94%, 66%);
   color: hsl(0, 94%, 66%);
 }
+.collin label {
+  position: relative;
+  font-weight: 600;
+  border-top: 0.5px solid hsl(229, 8%, 60%);
+  border-bottom: 0.5 solid hsl(229, 8%, 60%);
+  color: hsl(229, 31%, 21%);
+  display: block;
+  cursor: pointer;
+  padding: 10px 0;
+
+}
+.sr {
+  margin-top: 10%;
+}
+.collin input:checked + label:after {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+.collin label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-arrow.svg) no-repeat 0 0;
+}
+.collin input {
+  display: none;
+}
+.fre label {
+  position: relative;
+  font-weight: 600;
+  border-top: 0.5px solid hsl(229, 8%, 60%);
+  border-bottom: 0.5 solid hsl(229, 8%, 60%);
+  color: hsl(229, 31%, 21%);
+  display: block;
+  cursor: pointer;
+  padding: 10px 0;
+
+}
+.fre input:checked + label:after {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+.fre label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-arrow.svg) no-repeat 0 0;
+}
+.fre input {
+  display: none;
+}
+.to {
+  display: flex;
+  justify-content: center;
+}
+.ton {
+  background-color: hsl(231, 69%, 60%);
+  width: 7vw;
+  border-style: none;
+  height: 5.5vh;
+  border-radius: 6%;
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+.collin-text {
+  max-width: 30rem;
+  overflow: hidden;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.0;
+  transition: all 0.3s ease;
+}
+.collin input:checked ~ .collin-text {
+  max-height: 300px;
+  padding-bottom: 25px;
+  opacity: 1;
+  top: 0;
+}
+.collin-text p {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.7rem;
+}
+.collin-tex {
+  max-width: 30rem;
+  overflow: hidden;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.0;
+  transition: all 0.3s ease;
+}
+.fre input:checked ~ .collin-tex {
+  max-height: 300px;
+  padding-bottom: 25px;
+  opacity: 1;
+  top: 0;
+}
+.collin-tex p {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.7rem;
+}
 .section-Hero {
   display: flex;
   flex-direction: row;
