@@ -136,12 +136,14 @@ li:hover {
   top: -100%;
   opacity: 0.0;
   transition: all 0.3s ease;
+  margin: 0 0 -3rem 0;
 }
 .collin input:checked ~ .collin-text {
   max-height: 300px;
   padding-bottom: 25px;
   opacity: 1;
   top: 0;
+  margin-bottom: 0.1rem;
 }
 .collin-text p {
   color: hsl(229, 8%, 60%);
