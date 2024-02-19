@@ -60,6 +60,7 @@ li:hover {
   padding: 10px 0;
 
 }
+
 .collin label:hover {
   color: hsl(0, 94%, 66%);
 }
@@ -92,6 +93,40 @@ li:hover {
   cursor: pointer;
   padding: 10px 0;
 
+}
+.what label {
+  position: relative;
+  font-weight: 600;
+  border-top: 0.5px solid hsl(229, 8%, 60%);
+  border-bottom: 0.5 solid hsl(229, 8%, 60%);
+  color: hsl(229, 31%, 21%);
+  display: block;
+  cursor: pointer;
+  padding: 10px 0;
+
+}
+
+.what label:hover {
+  color: hsl(0, 94%, 66%);
+}
+.sr {
+  margin-top: 10%;
+}
+.what input:checked + label:after {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+.what label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-arrow.svg) no-repeat 0 0;
+}
+.what input {
+  display: none;
 }
 .fre label:hover {
   color: hsl(0, 94%, 66%);
@@ -484,3 +519,92 @@ li:hover {
 .svg1-footer:hover{
   fill: hsl(0, 94%, 66%);
 }
+.div-drop-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.what-text {
+  max-width: 30rem;
+  overflow: hidden;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.0;
+  transition: all 0.3s ease;
+  margin: 0 0 -3rem 0;
+}
+.what input:checked ~ .what-text {
+  max-height: 300px;
+  padding-bottom: 25px;
+  opacity: 1;
+  top: 0;
+  margin-bottom: 0.1rem;
+}
+.what-text p {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.7rem;
+}
+
+
+
+
+.request label {
+  position: relative;
+  font-weight: 600;
+  border-top: 0.5px solid hsl(229, 8%, 60%);
+  border-bottom: 0.5 solid hsl(229, 8%, 60%);
+  color: hsl(229, 31%, 21%);
+  display: block;
+  cursor: pointer;
+  padding: 10px 0;
+
+}
+
+.reques label:hover {
+  color: hsl(0, 94%, 66%);
+}
+.sr {
+  margin-top: 10%;
+}
+.request input:checked + label:after {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+.request label:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icon-arrow.svg) no-repeat 0 0;
+}
+.request input {
+  display: none;
+}
+.request-text {
+  max-width: 30rem;
+  overflow: hidden;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.0;
+  transition: all 0.3s ease;
+  margin: 0 0 -3rem 0;
+}
+.request input:checked ~ .request-text {
+  max-height: 300px;
+  padding-bottom: 25px;
+  opacity: 1;
+  top: 0;
+  margin-bottom: 0.1rem;
+}
+.request-text p {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.7rem;
+}
+
